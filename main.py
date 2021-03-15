@@ -1,13 +1,15 @@
 #Welcomes to Store
-print("------Welcome to the online shop------")
+print("------Smiths Online Shop------")
 
-
-shopping = "true"
+#Defines Variables
+shopping = "yes"
 slist = []
 
+#Asks the user for their name
+name = input("What is your name?")
+
 #Adds items to cart
-while shopping == "true":
-  print("Your Cart: {}".format(slist))
+while shopping == "yes":
   item = input("What would you like to buy?")
   item = item.strip()
   item = item.capitalize()
@@ -15,21 +17,26 @@ while shopping == "true":
   shopping = input("Do you wish to keep shopping?")
   shopping = shopping.strip()
   shopping = shopping.casefold()
-
-
+  import os
+  def clear(): os.system('clear') 
+  clear()
+  print("------Smiths Online Shop------")
+  print("Your Cart: {}".format(slist))
+print("Thank you for shopping with us {}!".format(name))
+print("See you next time!")
 
 
 
 
 
 #if shopping == "yes":
-  item = input("What would you like to buy?")
-  item = item.strip()
-  item = item.capitalize()
-  slist.append(item)
+#  item = input("What would you like to buy?")
+#  item = item.strip()
+#  item = item.capitalize()
+#  slist.append(item)
   
 #elif shopping == "no":
-  print("Thank you for shopping with us!")
-  print(list)
+  #print("Thank you for shopping with us!")
+  #print(list)
 #else:
-  print("Please enter yes or no")
+  #print("Please enter yes or no")

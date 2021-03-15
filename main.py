@@ -11,6 +11,11 @@ while shopping != "yes":
   item = item.strip()
   item = item.capitalize()
   slist.append(item)
+  shopping = input("Do you wish to keep shopping?")
+  shopping = shopping.strip()
+  shopping = shopping.casefold()
+  print(slist)
+
 
 
 

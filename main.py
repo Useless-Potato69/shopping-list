@@ -27,16 +27,3 @@ print("See you next time!")
 
 
 
-
-
-#if shopping == "yes":
-#  item = input("What would you like to buy?")
-#  item = item.strip()
-#  item = item.capitalize()
-#  slist.append(item)
-  
-#elif shopping == "no":
-  #print("Thank you for shopping with us!")
-  #print(list)
-#else:
-  #print("Please enter yes or no")

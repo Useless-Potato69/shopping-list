@@ -16,6 +16,8 @@ while shopping == "yes":
 
   #Adds item to list
   slist.append(item)
+
+  #Asks user if they wish to keep shopping
   shopping = input("Do you wish to keep shopping?")
   shopping = shopping.strip()
   shopping = shopping.casefold()

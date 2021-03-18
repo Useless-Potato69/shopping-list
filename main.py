@@ -1,5 +1,5 @@
 #Welcomes to Store
-print("------Smiths Online Shop------")
+print("------Dick Smiths Pen Battery Online Shop------")
 
 #Defines Variables
 shopping = "yes"
@@ -23,7 +23,7 @@ while shopping == "yes":
   clear()
 
   #Prints header
-  print("------Smiths Online Shop------")
+  print("------Dick Smiths Pen Battery Online Shop------")
   print("Your Cart: {}".format(slist))
 
   #Asks user if they wish to keep shopping
@@ -32,13 +32,14 @@ while shopping == "yes":
   shopping = shopping.strip()
   shopping = shopping.casefold()
 
+
   #Clears display
   import os
   def clear(): os.system('clear') 
   clear()
 
   #Prints header
-  print("------Smiths Online Shop------")
+  print("------Dick Smiths Pen Battery Online Shop------")
   print("Your Cart: {}".format(slist))
 
 #Ends user interaction
